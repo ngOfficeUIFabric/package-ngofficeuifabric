@@ -10,8 +10,11 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ngOfficeUIFabric/package-ngofficeuifabric#readme",
-  "main": "index.js",
+  "main": "index",
+  "peerDependencies":{
+    "angular": "^1.4.8",
+    "office-ui-fabric": "^1.2.0"
+  },
   "keywords": [
     "angular",
     "office",
@@ -21,11 +24,12 @@
     "office365",
     "sharepoint"
   ],
+  "homepage": "https://github.com/ngOfficeUIFabric/ngofficeuifabric#readme",
   "bugs": {
-    "url": "https://github.com/ngOfficeUIFabric/package-ngofficeuifabric/issues"
+    "url": "https://github.com/ngOfficeUIFabric/ngofficeuifabric/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngOfficeUIFabric/package-ngofficeuifabric.git"
+    "url": "git+https://github.com/ngOfficeUIFabric/ngofficeuifabric.git"
   }
 }
