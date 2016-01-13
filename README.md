@@ -7,7 +7,7 @@ This repo is for the distribution of the ngOfficeUiFabric on `npm` and `bower`. 
 
 ## Installing Angular Material
 
-You can install this package locally either with `npm` or `bower`. 
+You can install this package locally either with `npm`, `bower` or NuGet.
 
 ### npm
 
@@ -20,9 +20,6 @@ npm install ng-office-ui-fabric --save
 
 # To install from HEAD of master
 npm install https://github.com/ngofficeuifabric/package-ngofficeuifabric/tarball/master
-
-# To view all installed package 
-npm list;
 ```
 
 ### bower
@@ -36,12 +33,17 @@ bower install ng-office-ui-fabric#master
 
 # To save the bower settings for future use:
 bower install ng-office-ui-fabric --save
-
-# Later, you can use easily update with:
-bower update
 ```
 
-> Please note that ngOfficeUiFabric requires **Angular 1.4.x** or higher & **Office UI Fabric 1.1.*** or higher.
+### NuGet
+
+```shell
+# To get the latest stable version, use NPM from the Package Manager Console or
+#   the NuGet Package Manager wizard in Visual Studio
+Install-Package ng-office-ui-fabric
+```
+
+> Please note that ngOfficeUiFabric requires **Angular 1.4.8** or higher & **Office UI Fabric 1.2.x** or higher.
 
 
 ## Using the ngOfficeUiFabric Library
@@ -104,6 +106,40 @@ under `/bower_components/ng-office-ui-fabric/`.
   <!-- add angular & ngOfficeUiFabric (there are minified options too) -->
   <script src="/bower_components/angular/angular.js"></script>
   <script src="/bower_components/ng-office-ui-fabric/ngOfficeUiFabric.js"></script>
+
+    // Include app dependency on ngOfficeUIFabric
+    angular.module('YourApp', [
+        'officeuifabric.core',
+        'officeuifabric.components'
+      ])
+      .controller('YourController', YourController);
+
+  </script>
+
+</body>
+</html>
+```
+
+### NuGet
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <!-- add Office UI Fabric stylesheets (there are minified options too) -->
+  <link rel="stylesheet" href="/content/fabric.css">
+  <link rel="stylesheet" href="/content/fabric.components.css">
+</head>
+<body ng-app="YourApp">
+
+  <div ng-controller="YourController">
+    ..
+  </div>
+
+  <!-- add angular & ngOfficeUiFabric (there are minified options too) -->
+  <script src="/scripts/angular.js"></script>
+  <script src="/scripts/ngOfficeUiFabric.js"></script>
 
     // Include app dependency on ngOfficeUIFabric
     angular.module('YourApp', [
