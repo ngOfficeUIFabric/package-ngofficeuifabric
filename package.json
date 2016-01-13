@@ -1,7 +1,7 @@
 {
   "name": "ng-office-ui-fabric",
   "description": "Angular directives for Microsoft's Office UI Fabric.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "https://github.com/ngOfficeUIFabric/ng-officeuifabric/graphs/contributors",
   "maintainers": [
     {
@@ -10,8 +10,7 @@
     }
   ],
   "license": "MIT",
-  "main": "index",
-  "peerDependencies":{
+  "dependencies": {
     "angular": "^1.4.8",
     "office-ui-fabric": "^1.2.0"
   },
@@ -24,12 +23,12 @@
     "office365",
     "sharepoint"
   ],
-  "homepage": "https://github.com/ngOfficeUIFabric/ngofficeuifabric#readme",
+  "homepage": "https://github.com/ngOfficeUIFabric/ng-officeuifabric#readme",
   "bugs": {
-    "url": "https://github.com/ngOfficeUIFabric/ngofficeuifabric/issues"
+    "url": "https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngOfficeUIFabric/ngofficeuifabric.git"
+    "url": "git+https://github.com/ngOfficeUIFabric/ng-officeuifabric.git"
   }
 }
