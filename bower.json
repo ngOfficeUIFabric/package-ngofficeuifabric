@@ -1,7 +1,7 @@
 {
   "name": "ng-office-ui-fabric",
   "description": "Angular directives for Microsoft's Office UI Fabric.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": {
     "name": "https://github.com/ngOfficeUIFabric/ng-officeuifabric/graphs/contributors"
   },

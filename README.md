@@ -1,6 +1,6 @@
 [![MIT license](https://img.shields.io/npm/l/express.svg)](https://github.com/ngOfficeUIFabric/ng-officeuifabric/blob/master/LICENSE)
 [![npm version](https://badge.fury.io/js/ng-office-ui-fabric.svg)](https://badge.fury.io/js/ng-office-ui-fabric)
-[![bower version](https://badge.fury.io/bo/ng-office-ui-fabric.svg)](https://github.com/ngofficefabric/package-ngofficeuifabric)
+[![bower version](https://badge.fury.io/bo/ng-office-ui-fabric.svg)](https://github.com/ngOfficeUiFabric/package-ngofficeuifabric)
 [![NuGet version](https://badge.fury.io/nu/ng-office-ui-fabric.svg)](https://badge.fury.io/nu/ng-office-ui-fabric)
 
 This repo is for the distribution of the ngOfficeUiFabric on `npm` and `bower`. The source for this module is in the [main ngOfficeUiFabric repo](https://github.com/ngOfficeUIFabric/ng-officeuifabric). Please submit issues and pull requests against that repo.
@@ -12,7 +12,7 @@ You can install this package locally either with `npm`, `bower` or NuGet.
 ### npm
 
 ```shell
-# To install latest stable release 
+# To install latest stable release
 npm install ng-office-ui-fabric
 
 # To install latest stable release and update package.json
