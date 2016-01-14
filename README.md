@@ -5,7 +5,7 @@
 
 This repo is for the distribution of the ngOfficeUiFabric on `npm` and `bower`. The source for this module is in the [main ngOfficeUiFabric repo](https://github.com/ngOfficeUIFabric/ng-officeuifabric). Please submit issues and pull requests against that repo.
 
-## Installing Angular Material
+## Installing ngOfficeUiFabric
 
 You can install this package locally either with `npm`, `bower` or NuGet.
 
