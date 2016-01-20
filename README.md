@@ -45,6 +45,15 @@ Install-Package ng-office-ui-fabric
 
 > Please note that ngOfficeUiFabric requires **Angular 1.4.8** or higher & **Office UI Fabric 1.2.x** or higher.
 
+## CDN
+
+Hosting facilitated by [CDNJS](https://cdnjs.com), a community driven CDN. Simply add a reference in your page to:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ngOfficeUiFabric/0.2.0/ngOfficeUiFabric.min.js"></script>
+```
+
+> **NOTE**: Be sure to use the most current version!
 
 ## Using the ngOfficeUiFabric Library
 
