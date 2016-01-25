@@ -8,7 +8,7 @@
   "license": "MIT",
   "homepage": "https://ngOfficeUiFabric.com",
   "dependencies": {
-    "angular": "^1.4.8",
+    "angular": "1.4.8",
     "office-ui-fabric": "^1.2.1"
   },
   "keywords": [
