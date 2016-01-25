@@ -50,7 +50,7 @@ Install-Package ng-office-ui-fabric
 Hosting facilitated by [CDNJS](https://cdnjs.com), a community driven CDN. Simply add a reference in your page to:
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ngOfficeUiFabric/0.2.0/ngOfficeUiFabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ngOfficeUiFabric/0.3.0/ngOfficeUiFabric.min.js"></script>
 ```
 
 > **NOTE**: Be sure to use the most current version!
