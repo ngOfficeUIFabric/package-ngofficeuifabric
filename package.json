@@ -14,6 +14,9 @@
     "angular": "1.4.8",
     "office-ui-fabric": "^1.2.1"
   },
+  "main": [
+    "ngOfficeUiFabric.min.js"
+  ],
   "keywords": [
     "angular",
     "office",
