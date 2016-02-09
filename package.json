@@ -1,7 +1,7 @@
 {
   "name": "ng-office-ui-fabric",
   "description": "Angular directives for Microsoft's Office UI Fabric.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "https://github.com/ngOfficeUIFabric/ng-officeuifabric/graphs/contributors",
   "maintainers": [
     {
@@ -12,11 +12,9 @@
   "license": "MIT",
   "dependencies": {
     "angular": "1.4.8",
-    "office-ui-fabric": "^1.2.1"
+    "office-ui-fabric": "^2.0.1"
   },
-  "main": [
-    "ngOfficeUiFabric.min.js"
-  ],
+  "main": "ngOfficeUiFabric.min.js",
   "keywords": [
     "angular",
     "office",
