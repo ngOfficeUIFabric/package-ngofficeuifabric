@@ -25,6 +25,6 @@
   ],
   "ignore": [
     ".npmignore",
-    ".travis.yml"
+    "circle.yml"
   ]
 }

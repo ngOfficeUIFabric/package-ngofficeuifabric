@@ -14,6 +14,9 @@
     "angular": "1.4.9",
     "office-ui-fabric": "2.0.1"
   },
+  "devDependencies": {
+    "publish": "^0.5.0"
+  },
   "main": "ngOfficeUiFabric.min.js",
   "keywords": [
     "angular",
@@ -24,6 +27,10 @@
     "office365",
     "sharepoint"
   ],
+  "scripts": {
+    "test": "echo no tests to run",
+    "2npm": "publish"
+  },
   "homepage": "https://ngOfficeUiFabric.com",
   "bugs": {
     "url": "https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues"

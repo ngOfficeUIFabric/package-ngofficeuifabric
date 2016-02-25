@@ -2,7 +2,7 @@
 .gitignore
 
 # don't keep build files
-.travis.yml
+circle.yml
 
 # don't keep bower since this is NPM
 bower.json
