@@ -1,6 +1,17 @@
 <a name="next"></a>
 ### [next (TBD)](https://github.com/ngOfficeUIFabric/ng-officeuifabric/tree/dev)
 
+<a name="0.7.0"></a>
+### [0.7.0 - March 15, 2016](https://github.com/ngOfficeUIFabric/ng-officeuifabric/releases/tag/0.7.0)
+
+#### Features
+- **uif-persona**: directive added (@jjczopek; closes [#31](https://github.com/ngOfficeUIFabric/ng-officeuifabric/pull/31))
+- **uif-persona-card**: directive added (@jjczopek; closes [#32](https://github.com/ngOfficeUIFabric/ng-officeuifabric/pull/32))
+- **uif-org-chart**: directive added (@SteenMolberg; closes [#27](https://github.com/ngOfficeUIFabric/ng-officeuifabric/pull/27))
+
+#### Fixes
+- **uif-callout**: uifClose Button type attribute is not defined in calloutDirective (@jjczopek; closes [#221](https://github.com/ngOfficeUIFabric/ng-officeuifabric/pull/221))
+
 <a name="0.6.0"></a>
 ### [0.6.0 - February 29, 2016](https://github.com/ngOfficeUIFabric/ng-officeuifabric/releases/tag/0.6.0)
 
