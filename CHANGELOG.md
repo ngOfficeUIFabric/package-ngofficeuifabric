@@ -5,6 +5,21 @@
 ------------------
 
 
+<a name="0.7.3"></a>
+### [0.7.3 - April 10, 2016](https://github.com/ngOfficeUIFabric/ng-officeuifabric/releases/tag/0.7.3)
+
+#### Fixes
+- **uif-datepicker**
+  - lable should be removed if empty ([316d588](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/316d588), Closes [#272](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/272))
+- **uif-dropdown**
+  - disabled not watched ([6d71569](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/6d71569), Closes [#259](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/259))
+- **uif-nav-bar**
+  - cursor default for disabled item ([a8fac31](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/a8fac31), Closes [#249](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/249))
+
+
+------------------
+
+
 <a name="0.7.2"></a>
 ### [0.7.2 - March 31, 2016](https://github.com/ngOfficeUIFabric/ng-officeuifabric/releases/tag/0.7.2)
 
