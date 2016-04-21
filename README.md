@@ -76,7 +76,7 @@ under `/bower_components/ng-office-ui-fabric/`.
   <!-- add angular & ngOfficeUiFabric (there are minified options too) -->
   <script src="/node_modules/angular/angular.js"></script>
   <script src="/node_modules/ng-office-ui-fabric/ngOfficeUiFabric.js"></script>
-
+  <script type="text/javascript"> 
     // Include app dependency on ngOfficeUIFabric
     angular.module('YourApp', [
         'officeuifabric.core',
@@ -110,7 +110,7 @@ under `/bower_components/ng-office-ui-fabric/`.
   <!-- add angular & ngOfficeUiFabric (there are minified options too) -->
   <script src="/bower_components/angular/angular.js"></script>
   <script src="/bower_components/ng-office-ui-fabric/ngOfficeUiFabric.js"></script>
-
+  <script type="text/javascript">
     // Include app dependency on ngOfficeUIFabric
     angular.module('YourApp', [
         'officeuifabric.core',
@@ -144,7 +144,7 @@ under `/bower_components/ng-office-ui-fabric/`.
   <!-- add angular & ngOfficeUiFabric (there are minified options too) -->
   <script src="/scripts/angular.js"></script>
   <script src="/scripts/ngOfficeUiFabric.js"></script>
-
+  <script type="text/javascript">
     // Include app dependency on ngOfficeUIFabric
     angular.module('YourApp', [
         'officeuifabric.core',
