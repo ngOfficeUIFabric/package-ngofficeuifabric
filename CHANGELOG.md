@@ -1,4 +1,24 @@
-<a name="next"></a>
+<a name="0.12.0"></a>
+### [0.12.0 - June 7, 2016](https://github.com/ngOfficeUIFabric/ng-officeuifabric/releases/tag/0.12.0)
+
+#### Features
+
+- **uif-facepile**
+  - new directive ([6d9b88b](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/6d9b88b), Closes [#275](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/275))
+
+#### Fixes
+
+- **uif-breadcrumb**
+  - too many elements on small screen initially ([4ebaf07](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/4ebaf07), Closes [#354](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/354))
+- **uif-messagebar**
+  - `uif-type` binding not working properly ([4e6e9bc](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/4e6e9bc), Closes [#356](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/356))
+- **uif-panel**
+  - add support for new panel type introduced in Office UI Fabric 2.4 + animation issues ([306b60d](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/306b60d), Closes [#307](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/307))
+
+
+------------------
+
+
 <a name="0.11.0"></a>
 ### [0.11.0 - May 30, 2016](https://github.com/ngOfficeUIFabric/ng-officeuifabric/releases/tag/0.11.0)
 
@@ -17,7 +37,7 @@
 - **uif-datepicker**
   - disabled not watched ([5073fa4](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/5073fa4), References [#268](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/268))
 - **uif-searchbox**
-  - dsiabled not watched ([5f71af3](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/5f71af3), References [#268](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/268)).
+  - disabled not watched ([5f71af3](https://github.com/ngOfficeUIFabric/ng-officeuifabric/commit/5f71af3), References [#268](https://github.com/ngOfficeUIFabric/ng-officeuifabric/issues/268)).
 
 
 #### Breaking Change
@@ -69,7 +89,7 @@ Before doing anything, update your dev & master branches:
   git checkout dev
   git pull --rebase upstream dev
   git checkout master
-  get pull --rebase upstream master
+  git pull --rebase upstream master
   ```
 
 To update your folder for the Typings update...
@@ -107,6 +127,7 @@ Lastly you then want to rebase your branch(es) where you are working off the upd
   # rebase off the dev branch
   git rebase dev
   ```
+
 
 ------------------
 
