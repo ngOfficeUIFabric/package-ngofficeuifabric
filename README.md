@@ -43,7 +43,7 @@ bower install ng-office-ui-fabric --save
 Install-Package ng-office-ui-fabric
 ```
 
-> Please note that ngOfficeUiFabric requires **Angular 1.4.9** or higher & **Office UI Fabric 2.0.x** or higher.
+> Please note that ngOfficeUiFabric requires **AngularJS 1.6.5** or higher & **Office UI Fabric 2.6.3**.
 
 ## CDN
 
@@ -53,8 +53,7 @@ Hosting facilitated by [CDNJS](https://cdnjs.com), a community driven CDN. Get a
 ## Using the ngOfficeUiFabric Library
 
 Now that you have installed the ngOfficeUiFabric libraries, simply include the scripts and stylesheet in your main HTML file, in the order shown in the example below. Note that npm 
-will install the files under `/node_modules/ng-office-ui-fabric/` and bower will install them 
-under `/bower_components/ng-office-ui-fabric/`.
+will install the files under `/node_modules/ng-office-ui-fabric/` and bower will install them under `/bower_components/ng-office-ui-fabric/`.
 
 ### npm
 
