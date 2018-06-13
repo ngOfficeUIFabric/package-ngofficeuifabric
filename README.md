@@ -5,6 +5,12 @@
 
 This repo is for the distribution of the ngOfficeUiFabric on `npm` and `bower`. The source for this module is in the [main ngOfficeUiFabric repo](https://github.com/ngOfficeUIFabric/ng-officeuifabric). Please submit issues and pull requests against that repo.
 
+## June 2018 - Now in Archive Mode
+
+As of June 2018, this project is now in archive mode. This means there are is no planned work / updates for this project going forward. This project was 100% run and maintained by the community. As most of the world has moved on from AngularJS (v1.x) to Angular (v6) at the time of this update, we have decided to archive this project. There will be no more updates.
+
+At this time there are no updates planned on supporting Angular 6.
+
 ## Installing ngOfficeUiFabric
 
 You can install this package locally either with `npm`, `bower` or NuGet.
